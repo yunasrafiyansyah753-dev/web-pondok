@@ -36,37 +36,37 @@ export default function App() {
 
  // DATA GALERI (Tanpa deskripsi panjang)
   const listGaleri = [
-    { judul: "Kegiatan Pramuka & Kepemimpinan", kategori: "Pramuka", foto: "/pramuka1.jpg" },
-    { judul: "Kegiatan Pramuka & Kepemimpinan", kategori: "Pramuka", foto: "/pramuka2.jpg" },
-    { judul: "Kegiatan Pramuka & Kepemimpinan", kategori: "Pramuka", foto: "/pramuka3.jpg" },
-    { judul: "Kegiatan Pramuka & Kepemimpinan", kategori: "Pramuka", foto: "/pramuka4.jpg" },
-    { judul: "Kegiatan Pramuka & Kepemimpinan", kategori: "Pramuka", foto: "/pramuka5.jpg" },
-    { judul: "Kegiatan Pramuka & Kepemimpinan", kategori: "Pramuka", foto: "/pramuka6.jpg" },
-    { judul: "Kegiatan Pramuka & Kepemimpinan", kategori: "Pramuka", foto: "/pramuka7.jpg" },
-    { judul: "Kegiatan Pramuka & Kepemimpinan", kategori: "Pramuka", foto: "/pramuka8.jpg" },
-    { judul: "Kegiatan Pramuka & Kepemimpinan", kategori: "Pramuka", foto: "/pramuka9.jpg" },
-    { judul: "Halaqah Tahfidz Al-Quran", kategori: "Tahfidz", foto: "/tahfiz1.jpg" },
-    { judul: "Praktik Pidato 3 Bahasa", kategori: "Akademik", foto: "/pidato1.jpg" },
-    { judul: "Kegiatan Hadroh", kategori: "Ekstrakurikuler", foto: "/hadroh1.jpg" },
-    { judul: "Kegiatan Olahraga", kategori: "Ekstrakurikuler", foto: "/olahraga1.jpg" },
-    { judul: "Kegiatan Olahraga", kategori: "Ekstrakurikuler", foto: "/olahraga2.jpg" },
-    { judul: "Kegiatan Olahraga", kategori: "Ekstrakurikuler", foto: "/olahraga3.jpg" },
-    { judul: "Kegiatan Olahraga", kategori: "Ekstrakurikuler", foto: "/olahraga4.jpg" },
-    { judul: "Kegiatan Olahraga", kategori: "Ekstrakurikuler", foto: "/olahraga5.jpg" },
-    { judul: "Kegiatan Olahraga", kategori: "Ekstrakurikuler", foto: "/olahraga6.jpg" },
-    { judul: "Kegiatan Olahraga", kategori: "Ekstrakurikuler", foto: "/olahraga7.jpg" },
-    { judul: "Kegiatan Olahraga", kategori: "Ekstrakurikuler", foto: "/olahraga8.jpg" },
-    { judul: "Kegiatan Olahraga", kategori: "Ekstrakurikuler", foto: "/olahraga9.jpg" },
-    { judul: "Pembelajaran Akademik", kategori: "Akademik", foto: "/akademik1.jpg" },
-    { judul: "Pembelajaran Akademik", kategori: "Akademik", foto: "/akademik2.jpg" },
-    { judul: "Pembelajaran Akademik", kategori: "Akademik", foto: "/akademik3.jpg" },
-    { judul: "Pembelajaran Akademik", kategori: "Akademik", foto: "/akademik4.jpg" },
-    { judul: "Potret Bersama", kategori: "Bersama", foto: "/bersama1.jpg" },
-    { judul: "Potret Bersama", kategori: "Bersama", foto: "/bersama2.jpg" },
-    { judul: "Potret Bersama", kategori: "Bersama", foto: "/bersama3.jpg" },
-    { judul: "Potret Bersama", kategori: "Bersama", foto: "/bersama4.jpg" },
-    { judul: "Potret Bersama", kategori: "Bersama", foto: "/bersama5.jpg" },
-    { judul: "Potret Bersama", kategori: "Bersama", foto: "/bersama6.jpg" },
+    { judul: "Kegiatan Pramuka & Kepemimpinan", kategori: "Pramuka", foto: "kegiatan/pramuka1.jpg" },
+    { judul: "Kegiatan Pramuka & Kepemimpinan", kategori: "Pramuka", foto: "kegiatan/pramuka2.jpg" },
+    { judul: "Kegiatan Pramuka & Kepemimpinan", kategori: "Pramuka", foto: "kegiatan/pramuka3.jpg" },
+    { judul: "Kegiatan Pramuka & Kepemimpinan", kategori: "Pramuka", foto: "kegiatan/pramuka4.jpg" },
+    { judul: "Kegiatan Pramuka & Kepemimpinan", kategori: "Pramuka", foto: "kegiatan/pramuka5.jpg" },
+    { judul: "Kegiatan Pramuka & Kepemimpinan", kategori: "Pramuka", foto: "kegiatan/pramuka6.jpg" },
+    { judul: "Kegiatan Pramuka & Kepemimpinan", kategori: "Pramuka", foto: "kegiatan/pramuka7.jpg" },
+    { judul: "Kegiatan Pramuka & Kepemimpinan", kategori: "Pramuka", foto: "kegiatan/pramuka8.jpg" },
+    { judul: "Kegiatan Pramuka & Kepemimpinan", kategori: "Pramuka", foto: "kegiatan/pramuka9.jpg" },
+    { judul: "Halaqah Tahfidz Al-Quran", kategori: "Tahfidz", foto: "kegiatan/tahfiz1.jpg" },
+    { judul: "Praktik Pidato 3 Bahasa", kategori: "Akademik", foto: "kegiatan/pidato1.jpg" },
+    { judul: "Kegiatan Hadroh", kategori: "Ekstrakurikuler", foto: "kegiatan/hadroh1.jpg" },
+    { judul: "Kegiatan Olahraga", kategori: "Ekstrakurikuler", foto: "kegiatan/olahraga1.jpg" },
+    { judul: "Kegiatan Olahraga", kategori: "Ekstrakurikuler", foto: "kegiatan/olahraga2.jpg" },
+    { judul: "Kegiatan Olahraga", kategori: "Ekstrakurikuler", foto: "kegiatan/olahraga3.jpg" },
+    { judul: "Kegiatan Olahraga", kategori: "Ekstrakurikuler", foto: "kegiatan/olahraga4.jpg" },
+    { judul: "Kegiatan Olahraga", kategori: "Ekstrakurikuler", foto: "kegiatan/olahraga5.jpg" },
+    { judul: "Kegiatan Olahraga", kategori: "Ekstrakurikuler", foto: "kegiatan/olahraga6.jpg" },
+    { judul: "Kegiatan Olahraga", kategori: "Ekstrakurikuler", foto: "kegiatan/olahraga7.jpg" },
+    { judul: "Kegiatan Olahraga", kategori: "Ekstrakurikuler", foto: "kegiatan/olahraga8.jpg" },
+    { judul: "Kegiatan Olahraga", kategori: "Ekstrakurikuler", foto: "kegiatan/olahraga9.jpg" },
+    { judul: "Pembelajaran Akademik", kategori: "Akademik", foto: "kegiatan/akademik1.jpg" },
+    { judul: "Pembelajaran Akademik", kategori: "Akademik", foto: "kegiatan/akademik2.jpg" },
+    { judul: "Pembelajaran Akademik", kategori: "Akademik", foto: "kegiatan/akademik3.jpg" },
+    { judul: "Pembelajaran Akademik", kategori: "Akademik", foto: "kegiatan/akademik4.jpg" },
+    { judul: "Potret Bersama", kategori: "Bersama", foto: "kegiatan/bersama1.jpg" },
+    { judul: "Potret Bersama", kategori: "Bersama", foto: "kegiatan/bersama2.jpg" },
+    { judul: "Potret Bersama", kategori: "Bersama", foto: "kegiatan/bersama3.jpg" },
+    { judul: "Potret Bersama", kategori: "Bersama", foto: "kegiatan/bersama4.jpg" },
+    { judul: "Potret Bersama", kategori: "Bersama", foto: "kegiatan/bersama5.jpg" },
+    { judul: "Potret Bersama", kategori: "Bersama", foto: "kegiatan/bersama6.jpg" },
   ];
 
   const galeriFiltered = activeTabGaleri === 'Semua' 
@@ -75,42 +75,42 @@ export default function App() {
 
   // DATA DEWAN PEMBINA (2 Orang)
   const listPembina = [
-    { nama: "KH. Embay Mulya Syarief", jabatan: "Dewan Pembina", foto: "/embay.jpg" },
-    { nama: "Drs. H. Jarkasih, M.Pd.", jabatan: "Dewan Pembina", foto: "/jarkasih.jpg" }
+    { nama: "KH. Embay Mulya Syarief", jabatan: "Dewan Pembina", foto: "orang/embay.jpg" },
+    { nama: "Drs. H. Jarkasih, M.Pd.", jabatan: "Dewan Pembina", foto: "orang/jarkasih.jpg" }
   ];
 
   // DATA PENGGAGAS PESANTREN (4 Orang)
   const listPenggagas = [
-    { nama: "Drs. KH. Jarkasih, M.Pd.", jabatan: "Penggagas Pesantren", foto: "/jarkasih.jpg" },
-    { nama: "Alm. Dra. Hj. Yayat Nurhayati", jabatan: "Penggagas Pesantren", foto: "/yayat.jpg" },
-    { nama: "Nyai Titi H. Suari", jabatan: "Penggagas Pesantren", foto: "/titi.jpg" },
-    { nama: "Alm. Engkong Hamzah H. Kejo", jabatan: "Penggagas Pesantren", foto: "/hamzah.jpg" }
+    { nama: "Drs. KH. Jarkasih, M.Pd.", jabatan: "Penggagas Pesantren", foto: "orang/jarkasih.jpg" },
+    { nama: "Alm. Dra. Hj. Yayat Nurhayati", jabatan: "Penggagas Pesantren", foto: "orang/yayat.jpg" },
+    { nama: "Nyai Titi H. Suari", jabatan: "Penggagas Pesantren", foto: "orang/titi.jpg" },
+    { nama: "Alm. Engkong Hamzah H. Kejo", jabatan: "Penggagas Pesantren", foto: "orang/hamzah.jpg" }
   ];
 
   // DATA GABUNGAN DEWAN PENGAJAR & USTADZ/USTADZAH PENGABDIAN
   const listUstadz = [
-    { nama: "Al-Ustadz Dr. Syarifudin Hamzah, S.Pd.I., M.Pd.", jabatan: "Khodimul Ma'had", foto: "/pimpinan.jpg" },
-    { nama: "Al-Ustadz Dr. Amirudin Hamzah, Lc., MA.", jabatan: "Dewan Pengajar", foto: "/amir.jpg" },
-    { nama: "Al-Ustadz Ahmad Zainudin Hamzah, S.H.", jabatan: "Dewan Pengajar", foto: "/njay.jpg" },
-    { nama: "Al-Ustadzah Intan Fajri Nurul Ilmi, S.K.M.", jabatan: "Khodimul Ma'had", foto: "/bunda.jpg" },
-    { nama: "Al-Ustadz Muhamad Udas, S.Pd.I.", jabatan: "Dewan Pengajar", foto: "/udas.jpg" },
-    { nama: "Al-Ustadzah Khotifah Hartati, S.H.I.", jabatan: "Dewan Pengajar", foto: "/khotifah.jpg" },
-    { nama: "Al-Ustadz Tb. Zulia, M.Pd.", jabatan: "Dewan Pengajar", foto: "/zulia.jpg" },
-    { nama: "Al-Ustadz Ahmad Sudira, S.H.", jabatan: "Dewan Pengajar", foto: "/dira.jpg" },
-    { nama: "Al-Ustadz Yunas Rafiyansyah", jabatan: "Dewan Pengajar", foto: "/yunas.jpg" },
-    { nama: "Al-Ustadz Tubagus Adnan", jabatan: "Dewan Pengajar", foto: "/adnan.jpg" },
-    { nama: "Al-Ustadz Mardian", jabatan: "Dewan Pengajar", foto: "/mardian.jpg" },
-    { nama: "Al-Ustadz Delvin Hanif Pramudita", jabatan: "Dewan Pengajar", foto: "/delvin.jpg" },
-    { nama: "Al-Ustadz Galih Satrya Wibawa", jabatan: "Dewan Pengajar", foto: "/galih.jpg" },
-    { nama: "Al-Ustadz Akbar Hidayat", jabatan: "Dewan Pengajar", foto: "/akbar.jpg" },
-    { nama: "Al-Ustadz Rizky Adam Rafael", jabatan: "Dewan Pengajar", foto: "/adam.jpg" },
-    { nama: "Al-Ustadz Muhammad Faizal Ramadhan", jabatan: "Dewan Pengajar", foto: "/faizal.jpg" },
-    { nama: "Al-Ustadz Naufal Nabawi Albantani", jabatan: "Dewan Pengajar", foto: "/naufal.jpg" },
-    { nama: "Al-Ustadzah Nurasiyah", jabatan: "Dewan Pengajar", foto: "/aas.jpg" },
-    { nama: "Al-Ustadzah Regita Putri Azzahra", jabatan: "Dewan Pengajar", foto: "/regita.jpg" },
-    { nama: "Al-Ustadzah Shireen Tsamrotul Puadah", jabatan: "Dewan Pengajar", foto: "/siren.jpg" },
-    { nama: "Al-Ustadzah Bunga Ramadhani", jabatan: "Dewan Pengajar", foto: "/bunga.jpg" },
-    { nama: "Al-Ustadzah Azzaira Kamilia Ramadhani", jabatan: "Dewan Pengajar", foto: "/rara.jpg" }
+    { nama: "Al-Ustadz Dr. Syarifudin Hamzah, S.Pd.I., M.Pd.", jabatan: "Khodimul Ma'had", foto: "orang/pimpinan.jpg" },
+    { nama: "Al-Ustadz Dr. Amirudin Hamzah, Lc., MA.", jabatan: "Dewan Pengajar", foto: "orang/amir.jpg" },
+    { nama: "Al-Ustadz Ahmad Zainudin Hamzah, S.H.", jabatan: "Dewan Pengajar", foto: "orang/njay.jpg" },
+    { nama: "Al-Ustadzah Intan Fajri Nurul Ilmi, S.K.M.", jabatan: "Khodimul Ma'had", foto: "orang/bunda.jpg" },
+    { nama: "Al-Ustadz Muhamad Udas, S.Pd.I.", jabatan: "Dewan Pengajar", foto: "orang/udas.jpg" },
+    { nama: "Al-Ustadzah Khotifah Hartati, S.H.I.", jabatan: "Dewan Pengajar", foto: "orang/khotifah.jpg" },
+    { nama: "Al-Ustadz Tb. Zulia, M.Pd.", jabatan: "Dewan Pengajar", foto: "orang/zulia.jpg" },
+    { nama: "Al-Ustadz Ahmad Sudira, S.H.", jabatan: "Dewan Pengajar", foto: "orang/dira.jpg" },
+    { nama: "Al-Ustadz Yunas Rafiyansyah", jabatan: "Dewan Pengajar", foto: "orang/yunas.jpg" },
+    { nama: "Al-Ustadz Tubagus Adnan", jabatan: "Dewan Pengajar", foto: "orang/adnan.jpg" },
+    { nama: "Al-Ustadz Mardian", jabatan: "Dewan Pengajar", foto: "orang/mardian.jpg" },
+    { nama: "Al-Ustadz Delvin Hanif Pramudita", jabatan: "Dewan Pengajar", foto: "orang/delvin.jpg" },
+    { nama: "Al-Ustadz Galih Satrya Wibawa", jabatan: "Dewan Pengajar", foto: "orang/galih.jpg" },
+    { nama: "Al-Ustadz Akbar Hidayat", jabatan: "Dewan Pengajar", foto: "orang/akbar.jpg" },
+    { nama: "Al-Ustadz Rizky Adam Rafael", jabatan: "Dewan Pengajar", foto: "orang/adam.jpg" },
+    { nama: "Al-Ustadz Muhammad Faizal Ramadhan", jabatan: "Dewan Pengajar", foto: "orang/faizal.jpg" },
+    { nama: "Al-Ustadz Naufal Nabawi Albantani", jabatan: "Dewan Pengajar", foto: "orang/naufal.jpg" },
+    { nama: "Al-Ustadzah Nurasiyah", jabatan: "Dewan Pengajar", foto: "orang/nurasiyah.jpg" },
+    { nama: "Al-Ustadzah Regita Putri Azzahra", jabatan: "Dewan Pengajar", foto: "orang/regita.jpg" },
+    { nama: "Al-Ustadzah Shireen Tsamrotul Puadah", jabatan: "Dewan Pengajar", foto: "orang/siren.jpg" },
+    { nama: "Al-Ustadzah Bunga Ramadhani", jabatan: "Dewan Pengajar", foto: "orang/bunga.jpg" },
+    { nama: "Al-Ustadzah Azzaira Kamilia Ramadhani", jabatan: "Dewan Pengajar", foto: "orang/rara.jpg" }
   ];
 
   // DATA TESTIMONI
